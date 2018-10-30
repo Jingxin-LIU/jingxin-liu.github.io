@@ -33,9 +33,9 @@ kramdown:
 ####################################
 #
 owner:
-  name: leonids
-  avatar: leonids-logo.png
-  job: "A jekyll theme"
+  name: Jingxin LIU 刘净心
+  avatar: jingxin.png
+  job: "Post-Doctoral Fellow"
   bio: "A simple and awesome blog theme powered by jekyll."
   email:
   disqus-shortname:
