@@ -3,11 +3,11 @@
 # Site wide configuration
 ####################################
 #
-title: Leonids
-email:
-description: A simple and awesome blog theme powered by jekyll.
+title: Jingxin Liu 刘净心
+email: jingxin.liu@outlook.com
+description: Post-doctoral fellow
 url: # the base hostname & protocol for your site
-keywords: ["blog", "jekyll"]
+keywords: ["personal website", "blog", "jekyll"]
 
 #
 ###################################
@@ -33,7 +33,7 @@ kramdown:
 ####################################
 #
 owner:
-  name: Leonids
+  name: leonids
   avatar: leonids-logo.png
   job: "A jekyll theme"
   bio: "A simple and awesome blog theme powered by jekyll."
