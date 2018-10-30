@@ -1,61 +1,71 @@
-# JBlog Jekyll Theme
+# Update 07/09/2018
 
-**[JBlog](http://alperenbozkurt.net/JBlog)** is a simple jekyll theme.
+I'm planning to refactor Leonids theme!!!
 
-I have used this theme in my own php and ruby blogs. And there are some shortcomings. If something looks extremely ugly and you can't resist to fix it, just send me a PR. I will be grateful.
+The goal is really simple: make documentation more intuitive and deployment simpler!!!
 
-If you like this theme or using it, please give a **star** for motivation.
+Here is the plan:
 
-## Preview
+| Version | Description | Date |
+| --- | --- | --- |
+| 1.1 | Jekyll version deployable with gem | 07/15/2018 |
+| 1.2 | New features: Pagination, Prev/Next post | 07/22/2018 |
+| 2.0 | Gatsby or Vuepress version (vote in Issues) | who knows... |
 
-![Home Page](/assets/img/screenshot-home.png)    
-![Post Page](/assets/img/screenshot-post.png)
+As the project was and will be designed to improve your writing experience, only documentation, gem, deployment process with CI relevant PRs are acceptable in the future.
 
-See a [live version of JBlog](http://alperenbozkurt.net/JBlog) hosted on GitHub.
+I want you to know how much I value your support.
 
-## Getting Started
+Share it to your timeline!
 
-To learn how to install and use this theme check out the [Setup Guide](http://alperenbozkurt.net/JBlog/JBlog-theme/) for more information or apply the following instructions.
+# Update 05/06/2016
 
-## Installation
+Important! It's better to download the gzipped files instead of forking the repo. I would really appreciate if you could give me a star. 😁
 
-- Fork the Repo
-- Edit _config.yml file.
-	- Edit url as **https**://yourusername.github.io
-	- and others
-- Remove sample posts from _posts folder and add yours.
-- Edit index.md file in about folder.
-- Change repo name to YourUserName.github.io
-- Open "Github Pages" from settings page
-- Click the star icon at the top of this page ;)
+This project is under MIT license, so feel free to make it your own.
 
+# Leonids Jekyll Themes
 
-## How to customization
+**[Leonids](http://renyuanz.github.io/leonids)** is a clean Jekyll theme perfect for powering your GitHub hosted blog.
 
-- You can change title, description, profile image and social network icons in _config.yml file.
-- If you are not like this colors or fonts, you can change its in _sass/variables.scss file.
-```scss
-$title-font   : Lobster, cursive;
-$menu-font    : Alegreya Sans SC, sans-serif;
-$main-font    : Roboto Slab, serif;
+## What is Leonids?
+
+* Responsive templates. Looking good on mobile, tablet, and desktop.
+* Simple and clear permalink structure.
+* Support for Disqus Comments.
+* Support for multi-authors.
+* **And** the Leonids (/ˈliːənɪdz/ lee-ə-nidz) are a prolific meteor shower associated with the comet [Tempel-Tuttle](https://en.wikipedia.org/wiki/55P/Tempel%E2%80%93Tuttle).
+
+See a [demo](http://renyuanz.github.io/leonids/) hosted on GitHub.
+
+## Quick setup
+
 ```
-You can add your fonts this area.
-```scss
-// Colors
-$blue: #3498db;
-$orange: #e67e22;
-$red: #e74c3c;
-$white: #ecf0f1;
-$green: #2ecc71;
-$turko: #1abc9c;
-$purple: #9b59b6;
-$dark-blue: #34495e;
-
-$main-color: $white;
-$background-color: $blue;
-$thrid-color: rgba(52, 152, 219, 0.8);
+git clone https://github.com/renyuanz/leonids
+cd leonids
+jekyll server
 ```
 
-$main-color is panels background color.
-$background-color is background, buttons, links color.
-$thrid-color is opacity version of background color.
+Check out your awesome blog at `http://localhost:4000` and Cheers!
+
+## Running with Docker
+
+```
+docker run --rm -it --volume=$PWD:/srv/jekyll -p 4000:4000 jekyll/jekyll:pages jekyll serve --watch --force_polling
+```
+
+## Resume Page by [@Skn0tt](https://github.com/Skn0tt)
+Leonids features a simple resume page. It is divided up into five sections:
+
+* Bio (Edit \_data/index/careers.yml)
+* Education (Edit \_data/index/education.yml)
+* Skills (Edit \_data/index/skills.yml)
+* Projects (Edit \_data/index/projects.yml)
+* About (Edit \_includes/sections/about.html)
+
+You can put all your info into these files, and they will be featured on the resume page.
+
+## TODO
+
+- [ ] Redesign categories page. Ref: [dribbble: blog category section By Ilja Miskov](https://dribbble.com/shots/2274792-Blog-Category-Selection)
+- [ ] Multi languages support.
