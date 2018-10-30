@@ -5,7 +5,7 @@
 #
 title: Jingxin Liu 刘净心
 email: jingxin.liu@outlook.com
-description: Post-doctoral fellow
+description: Personal Website
 url: # the base hostname & protocol for your site
 keywords: ["personal website", "blog", "jekyll"]
 
@@ -33,14 +33,14 @@ kramdown:
 ####################################
 #
 owner:
-  name: Jingxin LIU 刘净心
-  avatar: jingxin.png
+  name: Jingxin LIU
+  avatar: jingxin.jpeg
   job: "Post-Doctoral Fellow"
-  bio: "A simple and awesome blog theme powered by jekyll."
+  bio: "欲得净土,当净其心.随其心净,即佛土净."
   email:
   disqus-shortname:
   twitter: #username
-  facebook: #username
+  facebook: jingxin.liu.7
   google:
     plus: #username
     analytics:
@@ -48,13 +48,13 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
+  github: jingxin-liu
   gitlab: #username
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
+  linkedin: jingxin-liu-bb374a95
   skype: #username
   xing: #username
-  instagram: #username
+  instagram: jingxinliu
   lastfm: #username
   tumblr: #username
   pinterest: #username
