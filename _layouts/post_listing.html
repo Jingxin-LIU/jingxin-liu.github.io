@@ -9,10 +9,10 @@ layout: default
       <span class="post-date">
         {{ post.date | date: "%-d %b %Y" | upcase }}
       </span>
-      {% if post.categories.size > 0 %}
+      {% if post.blogs.size > 0 %}
       •
-      {% for cat in post.categories %}
-        <a class="post-cat" href="{{ site.url }}/categories/#{{ cat }}">{{ cat }}</a>
+      {% for cat in post.blogs %}
+        <a class="post-cat" href="{{ site.url }}/blogs/#{{ cat }}">{{ cat }}</a>
         {% unless forloop.last %}
         <span>/</span>
         {% endunless %}
