@@ -1,0 +1,26 @@
+# timeline section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name: Shenzhen University
+  link: http://www.szu.edu.cn/
+  date: July 2018 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
+  job: Post-Doctoral Fellow
+
+- name: The University of Nottingham
+  link: http://www.nottingham.ac.uk/
+  date: Sep 2013 - July 2018
+  job: Ph.D Student
+
+- name: The Universtiy of Edinburgh
+  link: https://www.ed.ac.uk/
+  date: Sep 2012 - Sep 2013
+  job: Master Student
+
+- name: Institute of Technology Tallaght 
+  link: https://www.it-tallaght.ie/
+  date: Sep 2011 - Jul 2012
+  job: Bachelor Student 
+
+- name: Nanjing Tech University 
+  link: https://http://www.njtech.edu.cn/
+  date: Sep 2008 - Jul 2011
+  job: Bachelor Student 
