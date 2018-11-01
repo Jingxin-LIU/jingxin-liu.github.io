@@ -12,10 +12,9 @@
                 {% for paper in site.data.publications %}
                     <div class="pub">
                         {% if paper.name == project.name%}
-                            <p style="margin: 0">{{paper.title}}</p>
-                            <p style="margin: 0">{{paper.author}}</p>
+                            <li><b>{{paper.title}}</b>{{paper.author}}<i>{{paper.press}}</i></li>
                         {% endif %}
-                    </div>>
+                    </div>
                 {% endfor %}
                 
                 {% if project.github %}
