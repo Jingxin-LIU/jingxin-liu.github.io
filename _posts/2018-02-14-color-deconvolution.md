@@ -1,13 +1,10 @@
 ---
 
 layout: post
-
 title:  "Color Deconvolution"
-
 date:   2018-02-09
-
-excerpt: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
-
+excerpt: "Detailly introduce color deconvolution and point out its drawbacks."
+categories: [histopathology, immunohistochemistry]
 tags:
 
 - IHC
@@ -126,7 +123,7 @@ Color deconvolution requires very accurate stain color apperance matrix $M$. Alt
 
 
 ​			
-![inconsistency img](https://raw.githubusercontent.com/JingxinLIU415/JingxinLIU415.github.io/master/assets/img/blog_img/colorDeconv_stainInconsist.jpg )
+![inconsistency img](https://raw.githubusercontent.com/Jingxin-LIU/jingxin-liu.github.io/master/img/blog_img/colorDeconv_stainInconsist.jpg )
 <center>Fig.1: Example image of inconsistency with same stains.</center>
 ​			
 
@@ -138,17 +135,17 @@ DAB does not follow Beer-Lambert law. See [CM van der Loos paper](http://www.pub
 
 The Fig.2 below shows the top view of HSI color space plot of DAB-H image pixels. It is obvious that the strongly stained DAB pixels board spectrum on Hue. 
 
-![hsv top view of img](https://raw.githubusercontent.com/JingxinLIU415/JingxinLIU415.github.io/master/assets/img/blog_img/colorDeonv_dab-HSI.jpg)
+![hsv top view of img](https://raw.githubusercontent.com/Jingxin-LIU/jingxin-liu.github.io/master/img/blog_img/colorDeonv_dab-HSI.jpg)
 
 <center>Fig.2: Top view of HSI color space plot of DAB-H image pixels.</center>
 
 Fig.3 illustrates an example of the resulted DAB channel image of a heavily stained tissues using color deconvolution. It is seen that the very dark pixels gives higher values on DAB channel image. 
 
-![cd dark img](https://raw.githubusercontent.com/JingxinLIU415/JingxinLIU415.github.io/master/assets/img/blog_img/colorDeconv_cd-dark.jpg)
+![cd dark img](https://raw.githubusercontent.com/Jingxin-LIU/jingxin-liu.github.io/master/img/blog_img/colorDeconv_cd-dark.jpg)
 
 <center> Fig.3: The DAB channel image of strong stained tissues using color deconvolution.</center>
 
-![DAB-L img](https://raw.githubusercontent.com/JingxinLIU415/JingxinLIU415.github.io/master/assets/img/blog_img/colorDeconv_DAB-L.jpg)
+![DAB-L img](https://raw.githubusercontent.com/Jingxin-LIU/jingxin-liu.github.io/master/img/blog_img/colorDeconv_DAB-L.jpg)
 
 <center> Fig.4: Visualizations of pixel colours of the DAB-H stained image along the luminance axis and the colour deconvolution DAB channel axis.</center>
 
